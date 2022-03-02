@@ -13,7 +13,7 @@ class ColorGenerator extends Component {
     
 
     addColor() {
-        let newColor = "#" + ((1<<24)*Math.random() | 0).toString(16);
+        let newColor = '#'+ Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
         this.setState({colors: [...this.state.colors, newColor]})
     }
 

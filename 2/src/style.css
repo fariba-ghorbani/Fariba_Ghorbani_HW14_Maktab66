@@ -1,6 +1,12 @@
 body {
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.color-generator button {
+    font-size: 1.5rem;
 }
 
 .color {
